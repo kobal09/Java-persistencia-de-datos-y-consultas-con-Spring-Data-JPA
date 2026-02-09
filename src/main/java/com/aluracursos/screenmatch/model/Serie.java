@@ -34,6 +34,10 @@ public class Serie {
         this.sinopsis = datosSerie.sinopsis();
     }
 
+    public Serie() {
+
+    }
+
     public Long getId() {
         return id;
     }
